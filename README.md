@@ -1,5 +1,18 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Steam Auth Implementation using NextJS and Javascript.
+### Special thanks to HilliamT @ (https://github.com/HilliamT)
+
+I created a simple JS version of HilliamT's code and added functionality to support a returnUrl (utilizing non-secure cookies) which is determined by the route you initiated the steam login process.
+
+To test it out, navigate to localhost:3000/anything-here and test it again. Notice that a cookie named steamReturnUrl is created everytime you start the process.
+
+Read HilliamT's docs here: (https://github.com/HilliamT/nextjs-steam-auth)
+
+
+
+
+
 ## Getting Started
 
 First, run the development server:
