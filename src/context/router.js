@@ -6,7 +6,7 @@ const router = nextConnect();
 
 router.use(
   session({
-    secret: `${process.env.STEAM_SECRET}`,
+    secret: `${process.env.SESSION_SECRET}`,
     maxAge: 1000 * 60 * 60 * 24 * 7, //7 days
   })
 );
